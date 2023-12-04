@@ -1,0 +1,7 @@
+.vscode
+.env
+temp.py
+__pycache__/
+.pytest_cache/
+help.txt
+postgres-data/

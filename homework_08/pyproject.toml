@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "homework-2-8"
+version = "0.1.0"
+description = "MongoDB + RabbitMQ + Redis"
+authors = ["Matajur <gavrylchenko.d@ukr.net>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [{include = "homework_2_8"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pymongo = "^4.5.0"
+pika = "^1.3.2"
+mongoengine = "^0.27.0"
+redis = "^5.0.0"
+redis-lru = "^0.1.2"
+faker = "^19.3.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

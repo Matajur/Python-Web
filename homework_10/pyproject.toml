@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "homework-2-10"
+version = "0.1.0"
+description = "Django project"
+authors = ["Matajur <gavrylchenko.d@ukr.net>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [{include = "homework_2_10"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.5"
+psycopg2 = "^2.9.7"
+psycopg = "^3.1.10"
+pymongo = "^4.5.0"
+django-environ = "^0.11.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

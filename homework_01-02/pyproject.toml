@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "personal_assistant_matajur"
+version = "0.1.0"
+description = "personal assistant"
+authors = ["Matajur <gavrylchenko.d@ukr.net>"]
+license = "Apache License 2.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^23.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[project.urls]
+"Homepage" = "https://github.com/Matajur/homework_2-2a"

@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "homework-2-9"
+version = "0.1.0"
+description = "web-scrapped db"
+authors = ["Matajur <gavrylchenko.d@ukr.net>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [{include = "homework_2_9"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+mongoengine = "^0.27.0"
+redis = "^5.0.0"
+redis-lru = "^0.1.2"
+scrapy = "^2.10.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

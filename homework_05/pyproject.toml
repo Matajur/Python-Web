@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "homework-2-5"
+version = "0.1.0"
+description = "currency exchange utility"
+authors = ["Matajur <gavrylchenko.d@ukr.net>"]
+license = "Apache License 2.0"
+readme = "README.md"
+packages = [{include = "homework_2_5"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+requests = "^2.31.0"
+aiohttp = "^3.8.5"
+aiofile = "^3.8.7"
+aiopath = "^0.6.11"
+websockets = "^11.0.3"
+names = "^0.3.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
